@@ -19,6 +19,7 @@
 		font-family:Rouble;
 		font-style:normal;
 		font-weight:normal;
+		text-decoration:none;
 	}
 	
 	
@@ -216,6 +217,10 @@
 		background:url(images/orange-block-back.png) #f89e2e repeat-x top;
 		padding:25px 0;	
 	}
+	.green-block {
+		background:url(images/green-block-back.png) #27d197 repeat-x top;
+		padding:25px 0;	
+	}
 	.what-i-get {
 		margin:0 auto;
 		width:770px;
@@ -337,6 +342,138 @@
 		margin:0 5px 20px 5px;
 		width:215px;
 	}
+	.content-title-small {
+		color:#FFF;
+		text-align:center;
+		margin-bottom:35px;
+		font-weight:normal;
+		font-style:italic;
+		font-size:36px;
+	}
+	.conds {
+		height:585px;
+		position:relative;
+	}
+	.conds-block {
+		position:absolute;
+		width:370px;
+		font-size:24px;
+		font-style:italic;
+		color:#e4fff6;
+		padding-top:90px;
+		text-align:center;
+	}
+	.conds-block strong {
+		text-transform:uppercase;
+		display:block;
+		font-style:normal;
+	}
+	.conds-block-pig {
+		background:url(images/icon-pig.png) no-repeat top center;
+		top:0;
+		left:0;
+	}
+	.conds-block-gift {
+		background:url(images/icon-gift.png) no-repeat top center;
+		top:0;
+		right:0;
+	}
+	.conds-block-money {
+		padding-top:70px;
+		background:url(images/icon-money.png) no-repeat top center;
+		left:0;
+		bottom:0;
+	}
+	.conds-block-list {
+		background:url(images/icon-list.png) no-repeat top center;
+		right:0;
+		bottom:0;
+	}
+	.conds-block-center {
+		height:165px;
+		width:310px;
+		top:50%;
+		left:50%;
+		margin-top:-145px;
+		margin-left:-155px;
+		padding-top:125px;
+		background:url(images/icon-clock.png) no-repeat top center;
+	}
+	.conds-block-time {
+		font-size:30px;
+	}
+	.conds-block-old-price {
+		color:#a5fadd;
+		text-decoration:line-through;
+	}
+	.conds-block-new-price {
+		font-size:60px;
+		font-weight:bold;
+		font-style:normal;
+	}
+	.conds-block-discount {
+		font-size:18px;
+		border-radius:5px;
+		background:#fa5050;
+	}
+	.conds-line {
+		width:50px;
+		height:50px;
+		position:absolute;
+	}
+	.conds-line-left {
+		background:url(images/left-line.png) no-repeat center;
+	}
+	.conds-line-right {
+		background:url(images/right-line.png) no-repeat center;
+	}
+	.conds-line-tl {
+		left: 265px;
+		top: 185px;
+	}
+	.conds-line-tr {
+		right: 265px;
+		top: 185px;
+	}
+	.conds-line-bl {
+		left: 265px;
+		top: 450px;
+	}
+	.conds-line-br {
+		right: 265px;
+		top: 450px;
+	}
+	.why {
+		margin:0;
+		padding:0;
+		list-style:none;
+		text-align:center;
+		font-size:20px;
+		font-style:italic;
+		color:#4a4a4a;
+	}
+	.why strong {
+		font-size:24px;
+		display:block;
+	}
+	.why li {
+		padding-top:160px;
+		display:inline-block;
+		width:320px;
+		vertical-align:top;
+		margin:0 10px;
+	}
+	.why-money {
+		background:url(images/orange-money-icon.png) no-repeat center 20px;
+	}
+	.why-guarantee {
+		background:url(images/orange-guarantee-icon.png) no-repeat center 0;
+		width:300px !important;
+	}
+	.why-experts {
+		background:url(images/orange-experts-icon.png) no-repeat center 10px;
+		width:270px !important;
+	}
 </style>
 </head>
 
@@ -444,6 +581,68 @@
                 <input type="text" placeholder="E-mail" class="form-control">
                 <input type="submit" value="Записаться" class="btn btn-medium">
             </form>
+        </div>
+    </section>
+    <section class="block green-block">
+    	<div class="container">
+    		<h1 class="content-title-small">Итак, в чем суть нашего предложения:</h1>
+            <div class="conds">
+            	<div class="conds-block conds-block-pig">
+                	Первичная консультация <strong>бесплатно</strong>
+                </div>
+                <div class="conds-block conds-block-gift">
+                	Пакет 90 минут обучения <strong>30 минут в подарок</strong>
+                </div>
+                <div class="conds-block conds-block-money">
+                	Остались недовольны услугой? <strong>полный возврат средств</strong>
+                </div>
+                <div class="conds-block conds-block-list">
+                	<strong>ПОДАРОК!</strong> анализ и корректировка резюме
+                </div>
+                <div class="conds-block conds-block-center">
+                	<div class="conds-block-time">
+                    	30 минут обучения
+                    </div>
+                    <div class="conds-block-old-price">
+                    	1900 <span class="rouble">b</span>
+                    </div>
+                    <div class="conds-block-new-price">
+                    	1140 <span class="rouble">c</span>
+                    </div>
+                    <div class="conds-block-discount">
+                    	40% скидка действует до среды
+                    </div>
+                </div>
+                <div class="conds-line conds-line-left conds-line-tl"></div>
+                <div class="conds-line conds-line-right conds-line-tr"></div>
+                <div class="conds-line conds-line-right conds-line-bl"></div>
+                <div class="conds-line conds-line-left conds-line-br"></div>
+            </div>
+        </div>
+    </section>
+    <section class="block">
+    	<div class="container">
+            <h1 class="content-title">
+                <span>Почему я должен вам доверять?</span>
+            </h1>
+            <h2 class="content-subtitle">Сейчас в интернете столько обмана, что мы<br> понимаем все ваши сомнения и опасения. Однако, мы гарантируем следующее:</h2>
+            <ul class="why">
+            	<li class="why-money">
+                	<strong>Полный возврат средств</strong>
+                    если вы остались недовольны оказанной услугой.
+                </li><li class="why-guarantee">
+                	<strong>Гарантия результата</strong>
+                    через нас прошло<br> более 300 людей, получивших в итоге желаемую работу.
+                </li><li class="why-experts">
+                	<strong>Наши эксперты</strong>
+                    - уважаемые сотрудники крупных компаний.
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="block orange-block">
+    	<div class="container">
+        	<h1 class="content-title content-title-invert"><span>Как мы работаем:</span></h1>
         </div>
     </section>
 </body>
