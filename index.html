@@ -236,6 +236,98 @@
 	.hands-icon {
 		background:url(images/hands-icon.png) no-repeat center left;	
 	}
+	.helps {
+		text-align:center;	
+	}
+	.helps-block {
+		width:371px;
+		height:419px;
+		padding:20px;
+		border-radius:10px;
+		display:inline-block;
+		margin:0 10px;
+		box-shadow:#CCC 0px 10px 10px;
+		vertical-align:top;
+		text-align:left;
+	}
+	.helps-block-red {
+		background:url(images/red-info-block-back.png) repeat-x;
+		color:#985050;
+	}
+	.helps-block-green {
+		background:url(images/green-info-block.png) repeat-x;
+		color:#419176;
+	}
+	.helps-block-title {
+		margin:0 0 20px 0;
+		font-size:36px;	
+	}
+	.helps-block-list {
+		list-style:none;
+		margin:0;
+		padding:0;
+		font-size:16px;
+		font-style:italic;
+		height:220px;
+	}
+	.helps-block-list strong {
+		font-style:normal;	
+	}
+	.helps-block-list li {
+		margin:20px 0;	
+	}
+	hr {
+		border:none;
+		background:none;
+		margin:5px 0;	
+	}
+	.hr-red {
+		height:2px;
+		background:url(images/hr-red-back.png) repeat-x;	
+	}
+	.hr-green {
+		height:2px;
+		background:url(images/hr-green-back.png) repeat-x;	
+	}
+	.helps-block-earn {
+		font-size:18px;	
+		font-style:italic;
+	}
+	.helps-block-earn strong {
+		display:block;
+		font-size:70px;
+		line-height:70px;	
+	}
+	.money-icon {
+		display:inline-block;
+		width:22px;
+		height:26px;	
+	}
+	.money-icon-red {
+		background:url(images/money-icon-red.png) no-repeat center;	
+	}
+	.money-icon-green {
+		background:url(images/money-icon-green.png) no-repeat center;	
+	}
+	.free-consult-form2 {
+		background:url(images/free-consult-form-2-back.png) repeat-x;
+		height:158px;
+		width:775px;
+		margin:0 auto;
+		border-radius:10px;
+		border:1px solid #f2f2f2;
+		box-shadow:#CCC 0px 5px 5px;
+		margin-top:50px;
+		padding:20px;
+		text-align:center;
+	}
+	.free-consult-form2-title {
+		margin-bottom:30px;	
+	}
+	.free-consult-form2 .form-control {
+		margin:0 5px 20px 5px;
+		width:215px;
+	}
 </style>
 </head>
 
@@ -290,6 +382,59 @@
                 <li class="books-icon">Знания, о которых не пишут в книгах</li>
                 <li class="hands-icon">Получите желаемую работу и зарплату</li>
             </ul>
+        </div>
+    </section>
+    <section class="block">
+    	<div class="container">
+        	<h1 class="content-title"><span>И что вы предлагаете?</span></h1>
+            <h2 class="content-subtitle">Мы предлагаем вам воспользоваться <strong>платной</strong> услугой, которая поможет получить желаемую работу.</h2>
+            <section class="helps">
+            	<div class="helps-block helps-block-red">
+                	<h4 class="helps-block-title">БЕЗ нашей помощи</h4>
+                    <ul class="helps-block-list">
+                    	<li>&mdash; самостоятельно ищите любую работу</li>
+                        <li>&mdash; возможно, вас приглашают на собеседование</li>
+                        <li>&mdash; пришли на собеседование</li>
+                        <li>&mdash; прошли собеседование или получили отказ</li>
+                        <li>&mdash; получили предложение о работе<br><strong>за 30 000 Р в мес.</strong></li>
+                    </ul>
+                    <hr class="hr-red">
+                    <div class="helps-block-earn">
+                        В год вы заработаете <strong>360 000 Р</strong>
+                        <i class="money-icon money-icon-red"></i>
+                        <i class="money-icon money-icon-red"></i>
+                        <i class="money-icon money-icon-red"></i>
+                    </div>
+                </div>
+                <div class="helps-block helps-block-green">
+                	<h4 class="helps-block-title">С нашей помощью</h4>
+                    <ul class="helps-block-list">
+                    	<li>&mdash; самостоятельно ищите <strong>хорошую</strong> работу</li>
+                        <li>&mdash; вас приглашают на <strong>много</strong> собеседований</li>
+                        <li>&mdash; ходите по собеседованиям</li>
+                        <li>&mdash; <strong>успешно</strong> проходите собеседования и получаете <strong>много</strong> предложений</li>
+                        <li>&mdash; получаете предложения о работе<br><strong>от 60 000 рублей \ мес.</strong></li>
+                    </ul>
+                    <hr class="hr-green">
+                    <div class="helps-block-earn">
+                        В год вы заработаете <strong>720 000 Р</strong>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                        <i class="money-icon money-icon-green"></i>
+                    </div>
+                </div>
+            </section>
+            <form class="free-consult-form2">
+            	<h3 class="free-consult-form2-title">Бесплатная консультация</h3>
+                <input type="text" placeholder="Ваше имя" class="form-control">
+                <input type="text" placeholder="Skype" class="form-control">
+                <input type="text" placeholder="E-mail" class="form-control">
+                <input type="submit" value="Записаться" class="btn btn-medium">
+            </form>
         </div>
     </section>
 </body>
