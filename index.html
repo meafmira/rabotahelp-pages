@@ -63,6 +63,9 @@
 		font-weight:bold;
 		border-radius:5px;
 	}
+	.btn-large:active {
+		background-image:url(images/large-button-back-active.png);	
+	}
 	.btn-medium {
 		background:url(images/medium-button-back.png);
 		height:37px;
@@ -71,6 +74,9 @@
 		font-size:19px;
 		font-weight:bold;
 		border-radius:5px;	
+	}
+	.btn-medium:active {
+		background-image:url(images/medium-button-back-active.png);	
 	}
 	.icon {
 		display:inline-block;
@@ -138,6 +144,55 @@
 		width:100%;
 		box-sizing:border-box;
 	}
+	.content-title {
+		font-size:48px;
+		margin:25px 0;
+		color:#2c2c2c;
+		text-align:center;
+		background:url(images/content-title-back.png) center repeat-x;
+	}
+	.content-title span {
+		background:#FFF;
+		padding:0 10px;	
+	}
+	.content-subtitle {
+		text-align:center;
+		font-size:30px;
+		font-style:italic;
+		color:#757575;
+		font-weight:normal;	
+	}
+	.content-subtitle strong {
+		font-weight:bold;
+		font-style:normal;	
+	}
+	.for-men {
+		list-style:none;
+		margin:0;
+		padding:0;
+		text-align:center;
+		color:#757575;
+	}
+	.for-men li {
+		display:inline-block;
+		width:210px;
+		font-style:italic;
+		vertical-align:top;
+		padding-top:100px;
+		margin:0 10px;
+	}
+	.lens-icon {
+		background:url(images/lens-icon.png) no-repeat center top;	
+	}
+	.man-bubble-icon {
+		background:url(images/man-bubble-icon.png) no-repeat center top;	
+	}
+	.man-diagram-icon {
+		background:url(images/man-diagram-icon.png) no-repeat center top;	
+	}
+	.man-money-icon {
+		background:url(images/man-money-icon.png) no-repeat center top;	
+	}
 </style>
 </head>
 
@@ -159,6 +214,26 @@
                     <input type="email" placeholder="E-mail" class="form-control form-control-block">
                     <input type="submit" value="Записаться" class="btn btn-medium btn-block">
                 </form>
+            </div>
+        </section>
+        <section class="header-bottom">
+        	<div class="container">
+            	<h1 class="content-title"><span>Для кого наша услуга?</span></h1>
+                <h2 class="content-subtitle">Наша услуга предназначена <strong>только</strong> для людей, которые:</h2>
+                <ul class="for-men">
+                	<li class="lens-icon">
+                    	Ищут работу
+                    </li>
+                    <li class="man-bubble-icon">
+                    	Были приглашены на собеседование
+                    </li>
+                    <li class="man-diagram-icon">
+                    	Хотят научиться проходить собеседования
+                    </li>
+                    <li class="man-money-icon">
+                    	Хотят получить желаемую работу
+                    </li>
+                </ul>
             </div>
         </section>
     </section>
