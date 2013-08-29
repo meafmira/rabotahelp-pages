@@ -5,14 +5,162 @@
 <title>Онлайн-сервис "Успешное собеседование"</title>
 <link href="normalize.css" rel="stylesheet">
 <style>
+	input::-webkit-input-placeholder {
+		font-style:italic;	
+	}
+	input:-moz-placeholder {
+		font-style:italic;	
+	}
+	
+	
+	
+	body {
+		font-family:Arial, Helvetica, sans-serif;	
+	}
 	.container {
 		width:960px;
-		margin:0 auto;	
+		margin:0 auto;
+		position:relative;
+	}
+	.header-top {
+		background:url(images/header-top-back.jpg) no-repeat center;
+		height:405px;
+		padding-top:35px;	
+	}
+	.header-top-title {
+		margin:0 0 20px 0;
+		width:460px;
+		font-size:25px;	
+		line-height:41px;
+		color:#175e65;
+		font-weight:normal;
+	}
+	.header-top-title strong {
+		font-size:41px;
+		text-transform:uppercase;
+		display:block;	
+		font-family:Arial Black;
+	}
+	.btn {
+		border:0;
+		text-align:center;
+		color:#FFF;
+		text-decoration:none;
+		display:inline-block;
+		box-shadow:#999 0px 1px 3px;
+	}
+	.btn-block {
+		display:block;
+		box-sizing:border-box;
+		width:100%;	
+	}
+	.btn-large {
+		background:url(images/large-button-back.png);
+		height:41px;
+		padding:0 45px;
+		line-height:41px;
+		font-size:17px;
+		font-weight:bold;
+		border-radius:5px;
+	}
+	.btn-medium {
+		background:url(images/medium-button-back.png);
+		height:37px;
+		padding:0 45px;
+		line-height:37px;
+		font-size:19px;
+		font-weight:bold;
+		border-radius:5px;	
+	}
+	.icon {
+		display:inline-block;
+		vertical-align:middle;
+	}
+	.icon-phone {
+		background:url(images/icon-phone.png) no-repeat center;
+		width:19px;
+		height:21px;
+	}
+	.benefits {
+		list-style:none;
+		margin:0;
+		padding:0;
+		width:405px;
+		margin-top:40px;
+		font-size:14px;
+		font-style:italic;
+		color:#5f5f5f;	
+	}
+	.benefits li {
+		padding-left:67px;
+		margin:0 0 15px 0;
+	}
+	.benefits strong {
+		font-size:18px;
+		display:block;
+		font-style:normal;
+	}
+	.benefits-moneyback {
+		background:url(images/money-icon.png) no-repeat 9px center;
+	}
+	.benefits-warranty {
+		background:url(images/warranty-icon.png) no-repeat center left;	
+	}
+	.benefits-experts {
+		background:url(images/people-icon.png) no-repeat 7px center;	
+	}
+	h3 {
+		font-size:34px;
+		color:#ff7c00;
+		margin:0 0 18px 0;
+		line-height:34px;
+	}
+	.free-consult-form {
+		padding:15px 20px 25px;
+		width:250px;
+		background:#fcfcfc;
+		position:absolute;
+		top:70px;
+		right:0;
+		border-radius:5px;
+		box-shadow:#999 0px 3px 6px;
+	}
+	.form-control {
+		border-radius:5px;
+		border:1px solid #eaeaea;
+		padding:5px 10px;
+		box-shadow:inset #999 0px 2px 2px;
+		margin-bottom:10px;
+		font-size:14px;
+	}
+	.form-control-block {
+		display:block;
+		width:100%;
+		box-sizing:border-box;
 	}
 </style>
 </head>
 
 <body>
-	
+	<section class="header">
+    	<section class="header-top">
+        	<div class="container">
+            	<h1 class="header-top-title">Онлайн-сервис <strong>“Успешное собеседование”</strong></h1>
+                <a href="#" class="btn btn-large"><i class="icon icon-phone"></i> Заказать звонок</a>
+                <ul class="benefits">
+                	<li class="benefits-moneyback"><strong>Полный возврат средств</strong> если вы остались недовольны оказанной услугой.</li>
+                    <li class="benefits-warranty"><strong>Гарантия результата</strong> через нас прошло более 300 людей, получивших в итоге желаемую работу.</li>
+                    <li class="benefits-experts"><strong>Наши эксперты</strong> - уважаемые сотрудники крупных компаний.</li>
+                </ul>
+                <form class="free-consult-form">
+                	<h3>Бесплатная консультация</h3>
+                    <input type="text" placeholder="Ваше имя" class="form-control form-control-block">
+                    <input type="text" placeholder="Skype" class="form-control form-control-block">
+                    <input type="email" placeholder="E-mail" class="form-control form-control-block">
+                    <input type="submit" value="Записаться" class="btn btn-medium btn-block">
+                </form>
+            </div>
+        </section>
+    </section>
 </body>
 </html>
