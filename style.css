@@ -126,6 +126,7 @@ h3 {
 	background:#fcfcfc;
 	position:absolute;
 	border-radius:5px;
+	background:url(images/consult-back.png) repeat-x;
 }
 .free-consult-form-top {
 	top:70px;
