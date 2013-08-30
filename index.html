@@ -136,10 +136,12 @@
 		width:250px;
 		background:#fcfcfc;
 		position:absolute;
-		top:70px;
-		right:0;
 		border-radius:5px;
 		box-shadow:#999 0px 3px 6px;
+	}
+	.free-consult-form-top {
+		top:70px;
+		right:0;
 	}
 	.form-control {
 		border-radius:5px;
@@ -512,6 +514,119 @@
 	.how-list-work {
 		background:url(images/hands2-icon.png) no-repeat top center;
 	}
+	.reasons {
+		margin:0;
+		padding:0;
+		list-style:none;
+		width:810px;
+		margin:0 auto;
+		font-size:14px;
+		font-style:italic;
+		color:#4a4a4a;
+	}
+	.reasons strong {
+		font-size:24px;
+		display:block;
+		font-style:normal;
+	}
+	.reasons li {
+		width:330px;
+		height:57px;
+		padding-left:70px;
+		display:inline-block;
+		vertical-align:top;
+		margin:15px 0 15px 0;
+	}
+	.reasons-exp {
+		background:url(images/green-people-icon.png) no-repeat left center;
+	}
+	.reasons-work {
+		background:url(images/green-clock-icon.png) no-repeat left center;
+	}
+	.reasons-every {
+		background:url(images/green-every-icon.png) no-repeat left center;
+	}
+	.reasons-price {
+		background:url(images/green-pig-icon.png) no-repeat left center;
+	}
+	.reasons-troubles {
+		background:url(images/green-lamp-icon.png) no-repeat left center;
+	}
+	.reasons-result {
+		background:url(images/green-hand-icon.png) no-repeat left center;
+	}
+	.replies {
+		width:826px;
+		height:244px;
+		background:url(images/replies-back.png) repeat-x;
+		margin:45px auto 100px auto;
+		border:1px solid #ededed;
+		border-radius:10px;
+		position:relative;
+	}
+	.replies-slider {
+		width:400px;
+		margin:50px;
+		position:relative;
+	}
+	.replies-slider-slide {
+		padding-left:170px;
+		font-size:11px;
+	}
+	.reply-avatar {
+		float:left;
+		margin-left:-170px;
+		border-radius:50%;
+	}
+	.reply-text {
+		font-style:italic;
+		color:#727272;
+		margin-bottom:15px;
+		position:relative;
+	}
+	.lquote {
+		position:absolute;
+		background:url(images/quote.png) no-repeat center;
+		width:23px;
+		height:19px;
+		left:-35px;
+		top:-10px;
+	}
+	.reply-author {
+		color:#454545;
+	}
+	.reply-author strong {
+		color:#ff8f00;
+		display:block;
+	}
+	.free-consult-form-replies {
+		top:20px;
+		right:50px;
+	}
+	.slider-larr, .slider-rarr {
+		width:8px;
+		height:42px;
+		position:absolute;
+		top:50%;
+		margin-top:-21px;
+		display:block;
+	}
+	.slider-larr {
+		background:url(images/larr.png) no-repeat center;
+		left:-30px;
+	}
+	.slider-rarr {
+		background:url(images/rarr.png) no-repeat center;
+		right:-20px;
+	}
+	footer {
+		text-align:center;
+		color:#8d8d8d;
+		font-style:italic;
+	}
+	footer a {
+		color:#8d8d8d;
+	}
 </style>
 </head>
 
@@ -526,7 +641,7 @@
                     <li class="benefits-warranty"><strong>Гарантия результата</strong> через нас прошло более 300 людей, получивших в итоге желаемую работу.</li>
                     <li class="benefits-experts"><strong>Наши эксперты</strong> - уважаемые сотрудники крупных компаний.</li>
                 </ul>
-                <form class="free-consult-form">
+                <form class="free-consult-form free-consult-form-top">
                 	<h3>Бесплатная консультация</h3>
                     <input type="text" placeholder="Ваше имя" class="form-control form-control-block">
                     <input type="text" placeholder="Skype" class="form-control form-control-block">
@@ -687,6 +802,70 @@
                 <li class="how-list-edu"><span>Проводим обучение</span></li>
                 <li class="how-list-work"><span>Вы получаете работу</span></li>
             </ul>
+        </div>
+    </section>
+    <section class="block">
+    	<div class="container">
+        	<h1 class="content-title"><span>Несколько причин обратиться к нам</span></h1>
+            <ul class="reasons">
+            	<li class="reasons-exp">
+                	<strong>Большой опыт работы</strong>
+                    Все сотрудники имеют большой<br> опыт работы в наборе персонала
+                </li>
+                <li class="reasons-work">
+                	<strong>Работаем быстро</strong>
+                    Вам не потребуется много времени, чтобы овладеть всеми навыками
+                </li>
+                <li class="reasons-every">
+                	<strong>Внимание к каждому</strong>
+                    К каждому клиенту инидвидуальный<br> подход в зависимости от его требований
+                </li>
+                <li class="reasons-price">
+                	<strong>Хорошая цена</strong>
+                    Мы обойдемся вам значительно дешевле потерянного на собеседованиях времени
+                </li>
+                <li class="reasons-troubles">
+                	<strong>Решение проблем</strong>
+                    Мы не отпустим вас, пока не научим<br> профессионально проходить собеседования
+                </li>
+                <li class="reasons-result">
+                	<strong>Гарантируем результат</strong>
+                    Если вы останетесь недовольны услугой мы вернем вам всем ваши деньги
+                </li>
+            </ul>
+            <section class="replies">
+            	<div class="replies-slider">
+                	<div class="slider-larr"></div>
+                    <div class="slider-rarr"></div>
+                    <div class="replies-slider-container">
+                        <div class="replies-slider-slides">
+                            <div class="replies-slider-slide">
+                                <img class="reply-avatar" src="images/avatar.jpg">
+                                <div class="reply-text">
+                                    <div class="lquote"></div>
+                                    Здесь отличный выбор айфонов! Радует то, что товар можно обменять при обнаружении брака и оплата при доставке. Покупала iPhone 4S 64Gb. Мне понравилось! Буду рекомендовать этот магазин всем моим знакомым.
+                                </div>
+                                <div class="reply-author">
+                                    <strong>Рязанцева Светлана</strong>
+                                    Визажист
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="free-consult-form free-consult-form-replies">
+                	<h3>Бесплатная консультация</h3>
+                    <input type="text" placeholder="Ваше имя" class="form-control form-control-block">
+                    <input type="text" placeholder="Skype" class="form-control form-control-block">
+                    <input type="email" placeholder="E-mail" class="form-control form-control-block">
+                    <input type="submit" value="Записаться" class="btn btn-medium btn-block">
+                </form>
+            </section>
+            <h1 class="content-title">&nbsp;</h1>
+            <footer>
+            	Онлайн-Сервис “УСПЕШНОЕ СОБЕСЕДОВАНИЕ”<br>
+                <a href="#">www.rabotahelp.ru</a>
+            </footer>
         </div>
     </section>
 </body>
