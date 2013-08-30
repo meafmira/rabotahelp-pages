@@ -137,7 +137,6 @@
 		background:#fcfcfc;
 		position:absolute;
 		border-radius:5px;
-		box-shadow:#999 0px 3px 6px;
 	}
 	.free-consult-form-top {
 		top:70px;
@@ -262,9 +261,9 @@
 		border-radius:10px;
 		display:inline-block;
 		margin:0 10px;
-		box-shadow:#CCC 0px 10px 10px;
 		vertical-align:top;
 		text-align:left;
+		position:relative;
 	}
 	.helps-block-red {
 		background:url(images/red-info-block-back.png) repeat-x;
@@ -332,10 +331,10 @@
 		margin:0 auto;
 		border-radius:10px;
 		border:1px solid #f2f2f2;
-		box-shadow:#CCC 0px 5px 5px;
 		margin-top:50px;
 		padding:20px;
 		text-align:center;
+		position:relative;
 	}
 	.free-consult-form2-title {
 		margin-bottom:30px;	
@@ -627,6 +626,38 @@
 	footer a {
 		color:#8d8d8d;
 	}
+	.shadow {
+		position:absolute;
+		left:50%;
+	}
+	.shadow-consult {
+		background:url(images/shadow-consult.png) no-repeat center;
+		width:262px;
+		height:28px;
+		bottom:-28px;
+		margin-left:-131px;
+	}
+	.shadow-pink {
+		background:url(images/shadow-pink.png) no-repeat center;
+		width:400px;
+		height:41px;
+		margin-left:-200px;
+		bottom:-41px;
+	}
+	.shadow-green {
+		background:url(images/shadow-green.png) no-repeat center;
+		width:400px;
+		height:41px;
+		margin-left:-200px;
+		bottom:-41px;
+	}
+	.shadow-big-consult {
+		background:url(images/shadow-big-consult.png) no-repeat center;
+		width:759px;
+		height:18px;
+		margin-left:-379px;
+		bottom:-18px;
+	}
 </style>
 </head>
 
@@ -647,6 +678,7 @@
                     <input type="text" placeholder="Skype" class="form-control form-control-block">
                     <input type="email" placeholder="E-mail" class="form-control form-control-block">
                     <input type="submit" value="Записаться" class="btn btn-medium btn-block">
+                    <div class="shadow shadow-consult"></div>
                 </form>
             </div>
         </section>
@@ -704,6 +736,7 @@
                         <i class="money-icon money-icon-red"></i>
                         <i class="money-icon money-icon-red"></i>
                     </div>
+                    <div class="shadow shadow-pink"></div>
                 </div>
                 <div class="helps-block helps-block-green">
                 	<h4 class="helps-block-title">С нашей помощью</h4>
@@ -725,6 +758,7 @@
                         <i class="money-icon money-icon-green"></i>
                         <i class="money-icon money-icon-green"></i>
                     </div>
+                    <div class="shadow shadow-green"></div>
                 </div>
             </section>
             <form class="free-consult-form2">
@@ -733,6 +767,7 @@
                 <input type="text" placeholder="Skype" class="form-control">
                 <input type="text" placeholder="E-mail" class="form-control">
                 <input type="submit" value="Записаться" class="btn btn-medium">
+                <div class="shadow shadow-big-consult"></div>
             </form>
         </div>
     </section>
@@ -859,6 +894,7 @@
                     <input type="text" placeholder="Skype" class="form-control form-control-block">
                     <input type="email" placeholder="E-mail" class="form-control form-control-block">
                     <input type="submit" value="Записаться" class="btn btn-medium btn-block">
+                    <div class="shadow shadow-consult"></div>
                 </form>
             </section>
             <h1 class="content-title">&nbsp;</h1>
